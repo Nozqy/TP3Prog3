@@ -209,3 +209,67 @@ button:hover {
 .btn-eliminar:hover {
     background-color: #c82333;
 }
+
+/* --- ESTILOS DEL INDEX --- */
+body {
+    background-color: #1e1e24;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-inicio {
+    text-align: center;
+    padding: 40px 20px 20px;
+}
+
+.titulo-principal {
+    color: rgb(96, 66, 204); 
+    font-size: 2.5rem;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+
+.menu-navegacion {
+    background-color: #0f0f12;
+    padding: 15px 0;
+    border-bottom: 3px solid rgb(96, 66, 204);
+}
+
+.menu-navegacion ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin: 0;
+    padding: 0;
+}
+
+.menu-navegacion a {
+    text-decoration: none; 
+    color: #ffffff;
+    background-color: #2a2a35;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease; 
+}
+
+.menu-navegacion a:hover {
+    background-color: rgb(96, 66, 204); 
+    transform: translateY(-3px); 
+    box-shadow: 0 4px 10px rgba(96, 66, 204, 0.4);
+}
+
+
+.contenido-inicio {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contenido-inicio h2 {
+    color: #00cbc6;
+    margin-bottom: 10px;
+}
