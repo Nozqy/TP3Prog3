@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 3 - Personas con React</title>
+    
+    <link rel="stylesheet" href="estilospage.css" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.6/babel.min.js"></script>
+</head>
+<body>
+    <header class="header-inicio">
+        <h1 class="titulo-principal">Gestor de Personal Web</h1>
+    </header>
+    
+    <nav class="menu-navegacion">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Flexbox.html">Ejercicio 1</a></li>
+            <li><a href="Persona.html">Ejercicio 2</a></li>
+            <li><a href="React.html">Ejercicio 3</a></li>
+        </ul>
+    </nav>
+
+    <main class="contenedor-principal">
+        <section style="text-align: center; margin-bottom: 20px;">
+            <h2 style="color: #00cbc6;">Registro de Pacientes (React)</h2>
+            <p>Implementación mediante componentes y estado.</p>
+        </section>
+
+        <section id="react-root"></section>
+    </main>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
+    <script type="text/babel" src="react-app.js"></script>
+</body>
+</html>

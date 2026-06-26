@@ -23,7 +23,7 @@ Este repositorio contiene la resolución del Trabajo Práctico número 3, enfoca
 * **Objetivo:** Resolución del Ejercicio 2 utilizando React sin librerías de UI externas.
 * **Detalles:** Implementación mediante CDN de React. Se utilizan componentes funcionales y el hook `useState` para el manejo del formulario controlado y el almacenamiento de la lista de pacientes. El cálculo del IMC y las funciones de agregar/eliminar filas se manejan actualizando el estado de forma inmutable.
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 * HTML5 (Estructura semántica)
 * CSS3 (Flexbox, variables, hover states)
 * JavaScript Vanilla (ES6+, DOM, Arrays)
