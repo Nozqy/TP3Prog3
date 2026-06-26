@@ -113,3 +113,99 @@ button:hover {
     background-color: #e0a800;
     transform: translateY(-2px); 
 }
+
+/* --- ESTILOS PARA PERSONAS.HTML --- */
+.contenedor-principal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.panel-formulario {
+    background-color: #2a2a35;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    min-width: 300px;
+}
+
+.panel-formulario h2, .panel-tabla h2 {
+    color: #00cbc6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.grupo-input {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo-input label {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.grupo-input input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #3a3a4c;
+    background-color: #1e1e24;
+    color: white;
+}
+
+.btn-agregar {
+    width: 100%;
+    background-color: #28a745;
+    margin-top: 10px;
+}
+
+.btn-agregar:hover {
+    background-color: #218838;
+}
+
+
+.panel-tabla {
+    flex-grow: 1;
+    overflow-x: auto; 
+}
+
+.tabla-personas {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #2a2a35;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tabla-personas th, .tabla-personas td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #3a3a4c;
+}
+
+.tabla-personas th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+.tabla-personas tr:hover {
+    background-color: #3e3e50;
+}
+
+
+.btn-eliminar {
+    background-color: #dc3545;
+    padding: 5px 10px;
+    font-size: 0.85rem;
+}
+
+.btn-eliminar:hover {
+    background-color: #c82333;
+}
