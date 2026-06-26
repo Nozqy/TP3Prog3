@@ -273,3 +273,10 @@ body {
     color: #00cbc6;
     margin-bottom: 10px;
 }
+
+.grupo-input input:focus {
+    outline: none;
+    border-color: #00cbc6;
+    box-shadow: 0 0 8px rgba(0, 203, 198, 0.4);
+    background-color: #252530;
+}
